@@ -18,7 +18,7 @@ pinned: false
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![vLLM](https://img.shields.io/badge/Engine-vLLM-orange?style=for-the-badge)](https://github.com/vllm-project/vllm)
 
-[**🎥 Video Demo**](https://youtu.be/YilCJiH-B7w) | [**🤗 Hugging Face Space**](https://huggingface.co/spaces/MAhsaanUllah/Project-Aura-Forensic-Hub)
+[**🎥 Video Demo**](https://youtu.be/YilCJiH-B7w) | [**🤗 Hugging Face Space**](https://huggingface.co/spaces/realahsaan/Project-Aura-Forensic-Hub)
 
 ---
 
