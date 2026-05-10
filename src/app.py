@@ -92,16 +92,23 @@ st.markdown(
     """
     <style>
         /* Lock Sidebar: Hide ALL collapse/resize controls */
+        [data-testid="stSidebarNav"] { display: none !important; }
+        [data-testid="collapsedControl"] { display: none !important; }
         [data-testid="stSidebarCollapsedControl"] { display: none !important; }
         section[data-testid="stSidebar"] button { display: none !important; }
         [data-testid="stSidebarResizer"] { display: none !important; }
         
-        [data-testid="stSidebar"] { 
+        /* Force Sidebar Width and Visibility */
+        section[data-testid="stSidebar"] { 
             min-width: 320px !important; 
             max-width: 320px !important; 
             background-color: #11111b !important; 
             border-right: 2px solid #4ecca333 !important; 
+            visibility: visible !important;
         }
+        
+        /* Hide the 'X' close button inside sidebar if it appears */
+        button[kind="headerNoSpacing"] { display: none !important; }
         
         .stApp { background-color: #0b0b12; color: white; }
         
